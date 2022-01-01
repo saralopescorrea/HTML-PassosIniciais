@@ -18,11 +18,11 @@
     border-top: solid 4px black;
     width: 100%;
     text-align: center;
+    padding: 6px 0px;
 }
 
 .menu-item:hover{
     cursor: pointer;
-    border-top: solid 5px #0b8a8e;
-    border-right: solid 1px #f8efe7;
-    border-left: solid 1px #f8efe7;
+    border-top: solid 8px #0b8a8e;
+    padding: 2px 0px;
 }
