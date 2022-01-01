@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans&family=Nunito&family=Quicksand:wght@500&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-item{
+    border-top: solid 4px black;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-item:hover{
+    cursor: pointer;
+    border-top: solid 5px #0b8a8e;
+    border-right: solid 1px #f8efe7;
+    border-left: solid 1px #f8efe7;
+}
