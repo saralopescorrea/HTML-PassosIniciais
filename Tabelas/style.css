@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans&family=Nunito&family=Quicksand:wght@500&display=swap');
+
+*{
+    background-color: #ffc579;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #772435;
+}
+
+table {
+    text-align: center;
+    border: solid 1px #772435;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: solid 1px #772435;
+}
+
+th {
+    background-color: #772435;
+    color: #ffc579;
+}
